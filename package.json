@@ -1,0 +1,34 @@
+{
+  "name": "computer",
+  "version": "1.0.0",
+  "description": "Voice commands in my living room",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eiriksm/computer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eiriksm/computer/issues"
+  },
+  "homepage": "https://github.com/eiriksm/computer#readme",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "express": "^4.14.0",
+    "lmtool": "^2.0.3",
+    "pocketsphinx-continuous": "^1.1.0",
+    "serialport": "^6.0.4",
+    "speaker": "^0.4.0",
+    "vlc-remote": "^1.10.0",
+    "wav": "git+https://github.com/franko-h/node-wav.git#master"
+  },
+  "devDependencies": {
+    "adbkit": "^2.4.1"
+  }
+}
